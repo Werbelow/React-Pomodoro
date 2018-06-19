@@ -1,0 +1,13 @@
+.clock {
+  color: #fff;
+  font-size: 80px;
+  line-height: 80px;
+  margin: 0px;
+  font-weight: lighter;
+}
+
+.status {
+  color: #fff;
+  opacity: .5;
+  margin: 5px 0px 20px 0px;
+}
