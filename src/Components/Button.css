@@ -4,4 +4,14 @@
   border-bottom: 4px solid #D5D5D5;
   border-radius: 4px;
   min-width: 150px;
+  font-size: 14px;
+  font-weight: bold;
 }
+
+.button:active {
+  border-bottom: 0px;
+  transform: translate(0px, 3px);
+  transition: all 0.1s;
+}
+
+.button:focus {outline:0;}

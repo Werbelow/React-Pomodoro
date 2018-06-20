@@ -7,9 +7,9 @@ const Settings = props => {
   return (
     <div className="settings">
       <div className="settings-button-row">
-        <button>-</button>
+        <button onClick={props.dec}>-</button>
         <p className="settings-time">{props.count}</p>
-        <button>+</button>
+        <button onClick={props.inc}>+</button>
       </div>
       <div>
         <p className="settings-title">{props.title}</p>
@@ -21,6 +21,8 @@ const Settings = props => {
 Settings.propTypes = {
   title: PropTypes.string,
   count: PropTypes.number,
+  dec: PropTypes.func,
+  inc: PropTypes.func
 };
 
 Settings.defaultProps = {

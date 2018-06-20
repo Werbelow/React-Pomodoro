@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import './Button.css';
 
 const Button = props => {
-  return <button className="button">{props.title.toUpperCase()}</button>;
+  return <button className="button" onClick={props.handleClick}>{props.title.toUpperCase()}</button>;
 };
 
 Button.propTypes = {
